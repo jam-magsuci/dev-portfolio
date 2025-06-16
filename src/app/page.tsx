@@ -15,7 +15,7 @@ export default async function HomePage() {
       <main className="flex-grow container mx-auto px-4 py-8 md:py-12">
         <section id="hero" className="text-center py-16 md:py-24" data-ai-hint="developer introduction">
           <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
-            Hi, I&apos;m <span className="text-primary">Your Name</span>.
+            Hi, I&apos;m <span className="text-primary">Jam Magsuci</span>.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             A passionate Full-Stack Developer specializing in creating modern, responsive, and user-friendly web applications.
@@ -28,7 +28,7 @@ export default async function HomePage() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/resume.pdf" target="_blank"> {/* Replace with actual resume link */}
+              <Link href="https://drive.google.com/file/d/1YmkyCYTWpmImNGqNrpvCw9rB8q1X6Gc6/view?usp=sharing" target="_blank"> {/* Replace with actual resume link */}
                 Download CV
               </Link>
             </Button>
@@ -49,17 +49,17 @@ export default async function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
             <Button size="lg" variant="default" asChild className="w-full sm:w-auto">
-              <Link href="mailto:youremail@example.com">
+              <Link href="mailto:magsucijam@gmail.com">
                 <Mail className="mr-2 h-5 w-5" /> Email Me
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
+            {/* <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
               <Link href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-5 w-5" /> LinkedIn
               </Link>
-            </Button>
+            </Button> */}
             <Button size="lg" variant="outline" asChild className="w-full sm:w-auto">
-              <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/jam-magsuci" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-5 w-5" /> GitHub
               </Link>
             </Button>
