@@ -18,3 +18,10 @@ services:
     env_file:
       - .env
     restart: unless-stopped
+
+    networks:
+      - localnet
+
+networks:
+  localnet:
+    external: true
