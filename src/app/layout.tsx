@@ -4,8 +4,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/layout/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: 'Devfolio Noir',
-  description: 'A personal portfolio for a full-stack developer.',
+  title: 'Jam Magsuci - Full Stack Developer',
+  description: `Hi, I'm Jam Magsuci.
+A passionate Full-Stack Developer specializing in creating modern, responsive, and user-friendly web applications. I turn complex problems into elegant digital solutions.`,
   keywords: ['portfolio', 'full-stack developer', 'Next.js', 'Firebase', 'React', 'Tailwind CSS'],
 };
 

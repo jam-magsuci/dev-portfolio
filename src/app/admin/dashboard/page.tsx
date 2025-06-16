@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { Loader2 } from "lucide-react";
 
 export const metadata = {
-  title: "Admin Dashboard - Devfolio Noir",
+  title: "Admin Dashboard",
 };
 
 export default function AdminDashboardPage() {
