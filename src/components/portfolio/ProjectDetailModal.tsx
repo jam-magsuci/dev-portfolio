@@ -28,7 +28,7 @@ export function ProjectDetailModal({ project, isOpen, onClose }: ProjectDetailMo
         <DialogHeader className="p-6 pb-0">
           <DialogTitle className="font-headline text-2xl md:text-3xl">{project.title}</DialogTitle>
         </DialogHeader>
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="h-[calc(100vh-10rem)]">
           <div className="px-6 space-y-4 py-4">
             {hasImages && !hasMultipleImages && (
               <div className="relative w-full h-64 md:h-80 rounded-md overflow-hidden my-4" data-ai-hint="project hero image">
@@ -90,7 +90,7 @@ export function ProjectDetailModal({ project, isOpen, onClose }: ProjectDetailMo
               </div>
             </div>
           </div>
-          <DialogFooter className="p-6 pt-4 border-t sticky bottom-0 bg-background flex flex-col sm:flex-row justify-end gap-3">
+          <DialogFooter className="p-6 pt-4 border-t bg-background flex flex-col sm:flex-row justify-end gap-3">
           {project.liveDemoUrl && (
             <Button variant="outline" asChild>
               <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer">
@@ -110,7 +110,7 @@ export function ProjectDetailModal({ project, isOpen, onClose }: ProjectDetailMo
           <Button variant="outline" onClick={onClose}>
             <X className="mr-2 h-4 w-4" /> Close
           </Button>
-        </DialogFooter>
+          </DialogFooter>
         </ScrollArea>
       </DialogContent>
     </Dialog>
