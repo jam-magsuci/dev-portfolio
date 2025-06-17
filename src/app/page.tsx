@@ -21,7 +21,7 @@ export default async function HomePage() {
             A passionate Full-Stack Developer specializing in creating modern, responsive, and user-friendly web applications.
             I turn complex problems into elegant digital solutions.
           </p>
-          <div className="flex justify-center space-x-4 mb-12">
+          <div className="flex justify-center gap-4 mb-12 flex-col sm:flex-row">
             <Button size="lg" asChild>
               <Link href="#projects">
                 View My Work <ArrowDown className="ml-2 h-5 w-5" />

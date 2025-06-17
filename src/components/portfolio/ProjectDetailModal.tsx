@@ -90,7 +90,7 @@ export function ProjectDetailModal({ project, isOpen, onClose }: ProjectDetailMo
               </div>
             </div>
           </div>
-          <DialogFooter className="p-6 pt-4 border-t sticky bottom-0 bg-background flex flex-wrap justify-end gap-2">
+          <DialogFooter className="p-6 pt-4 border-t sticky bottom-0 bg-background flex flex-col sm:flex-row justify-end gap-3">
           {project.liveDemoUrl && (
             <Button variant="outline" asChild>
               <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer">
